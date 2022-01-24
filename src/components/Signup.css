@@ -1,0 +1,154 @@
+.popup{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(200, 200, 200, 0.5);
+    margin-top: -88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.popup-design{
+    background-color: white;
+    width: 800px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-in-type{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.close-btn{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#close > button{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    font-size: 2.5rem;
+    padding: 0 8px;
+}
+
+#close > button:hover{
+    color: white;
+    background-color: red;
+}
+
+#sign-up > button{
+    background-color: #4CAF50;
+    border-radius: 10px;
+    border: none;
+}
+
+#sign-up-choice > p{
+    margin-top: 18px;
+}
+
+#sign-up > button:hover{
+    color: white;
+}
+
+.popup-input{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sign-up{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#modal > p{
+    margin: auto;
+}
+
+.social-signup-twitter{
+    background-color: #00acee;
+    display: flex;
+    height: 30px;
+    font-size: 20px;
+    color: white;
+    align-items: center;
+    border-radius: 25px;
+    padding: 0 5px;
+    cursor: pointer;
+    gap: 5px;
+    width : 250px;
+}
+
+.social-signup-fb{
+    background-color: #4267B2;
+    display: flex;
+    height: 30px;
+    font-size: 20px;
+    color: white;
+    align-items: center;
+    border-radius: 25px;
+    padding: 0 5px;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.social-signup-google{
+    background-color: #db3236;
+    display: flex;
+    height: 30px;
+    font-size: 20px;
+    color: white;
+    align-items: center;
+    border-radius: 25px;
+    padding: 0 5px;
+    cursor: pointer;
+    gap: 5px;
+}
+
+input{
+    padding: 1px;
+    border:1px solid #BFBFBF;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+
+
+input:focus{
+    outline: none;
+}
+
+.log-in{
+    color: #00acee;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 960px) {
+    .inner-popup{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .sign-in-type{
+        flex-direction: column;
+    }
+
+    .popup-design{
+        height: 600px;
+        width: 350px;
+    }
+}

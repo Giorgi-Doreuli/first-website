@@ -1,0 +1,11 @@
+.place{
+    position: relative;
+    margin-top: 210px;
+    padding-top: 90px;
+}
+
+.rows{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+}
