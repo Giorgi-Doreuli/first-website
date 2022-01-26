@@ -20,7 +20,7 @@ function Places() {
                         label = 'Imereti'
                         alt = 'Imereti - katskhi pillar'
                         area = '-katskhi pillar'/>
-                    <Card src = 'Uplistsikhe_view.jpg'
+                    <Card src = 'photo13.jpg'
                         label = 'Shida kartli'
                         alt = 'Shida kartli - Uplistsikhe'
                         area = '-Uplistsikhe'/>
